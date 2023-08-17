@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR STYLE */
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-template-rows: 100fr;
+  z-index: 5;
+}
+
+/* .nav-container: */
+.logo {
+  width: 150px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+#links a {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.other-links {
+  display: flex;
+  list-style: none;
+  width: 800px;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+.nav-color {
+  transition: all 0.15s;
+  background-color: #343a40;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.main-img {
+  background-image: url(img/bg-bunner-2.jpg);
+  background-size: cover;
+  height: 100vh;
+  filter: contrast(0.7);
+}
+
+body {
+  position: relative;
+}
+
+.main-container {
+  position: absolute;
+  top: 40vh;
+  text-align: center;
+  color: #f5f5f5;
+  z-index: 2;
+}
+
+/* ABOUT STYLE */
+.about-container {
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  display: grid;
+  grid-template-rows: 61px 325px;
+  grid-template-columns: 500px;
+  font-size: 20px;
+}
+
+.home-photo {
+  height: 500px;
+  border-radius: 3%;
+}
+
+/* ROOM STYLE */
+#rooms {
+  height: 90px;
+  background-color: #f5f5f5;
+}
+
+.rooms-container {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  padding: 95px;
+  display: grid;
+  grid-template-rows: 100px 120px;
+}
+
+.rooms-details {
+  display: grid;
+  grid-template-columns: 100fr 100fr 100fr;
+  padding: 10px;
+  text-align: center;
+}
+
+.rooms-details img {
+  border-radius: 3%;
+}
+
+.rooms-container h1 {
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+.rooms-container p {
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.price {
+  color: #5c98f3;
+}
+
+/* GALLERY STYLE */
+.gallery-container {
+  /* display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  padding: 100px; */
+  display: grid;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  padding: 100px;
+  margin-left: 94px;
+  grid-template-columns: 21vh 68vh;
+}
+
+.gallery-heading {
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+}
+
+#gallery {
+  height: 80px;
+}
+
+.first-image {
+  width: 1219px;
+}
+
+/* CONTACT CONTAINER */
+.contact-container {
+  height: 50vh;
+  background-image: url(img/parallax-img-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  display: grid;
+  justify-content: space-around;
+}
+
+.contact-container h3 {
+  position: relative;
+  top: -30px;
+  margin: auto;
+  color: white;
+  font-size: 60px;
+  padding: 20px;
+}
+.form-inline {
+  display: grid;
+  grid-template-columns: 40fr 10fr;
+}
+
+/* FOOTER STYLE */
+.footer {
+  background-color: #343a40;
+  padding: 80px;
+  height: 40vh;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#footer a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 60px;
+  padding: 50px;
+}
+
+.copyright {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
